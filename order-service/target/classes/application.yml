@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order-service
+
+server:
+  port: 8801
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+  instance:
+    instance-id: xorder-servicex
+    prefer-ip-address: true
